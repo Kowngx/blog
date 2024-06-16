@@ -8,8 +8,7 @@ repo_url: 'https://github.com/Kowngx/blog'
 
 # Theme
 theme:
-  name: null
-  custom_dir: 'mkdocs-material/material/templates'
+  name: material
   static_templates:
     - 404.html
   language: 'zh'
