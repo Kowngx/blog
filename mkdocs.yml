@@ -1,31 +1,49 @@
 site_name: Blog
 site_description: a blog
-site_url: http://kong
+site_url: https://kowngx.github.io/blog/
+strict: false
+# Repository
+repo_name: 'Kowngx/blog'
+repo_url: 'https://github.com/Kowngx/blog'
 
+# Theme
 theme:
-  name: material
-  features:
-    - navigation.indexes
+  name: null
+  custom_dir: 'mkdocs-material/material/templates'
+  static_templates:
+    - 404.html
+  language: 'zh'
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
 
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  favicon: 'favicon.ico'
+  icon:
+    logo: 'material/school'
+  features:
+    - content.action.edit
+    - navigation.tabs
+    - navigation.instant
+  font:
+    text: 'Fira Sans'
+    code: 'Fira Mono'
 plugins:
   - search
-  - blog:
-      blog_toc: true
-      archive_date_format: MMMM yyyy
-      categories_allowed:
-        - Holidays
-        - News
-      authors_profiles: true
-      pagination_per_page: 5
-      archive_pagination_per_page: 10
-      categories_pagination_per_page: 10
   - tags
-  - rss:
-      match_path: "blog/posts/.*"
-      date_from_meta:
-        as_creation: date.created
-        as_update: date.updated
-
 hooks:
   - hooks/socialmedia.py
 
