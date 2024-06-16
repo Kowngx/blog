@@ -102,3 +102,5 @@ nav:
   - Tags 索引: tags.md
   - 博文:
      - blog/index.md
+     - 笔记
+       - posts/notes/note.md
