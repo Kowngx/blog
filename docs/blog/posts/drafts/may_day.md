@@ -1,8 +1,6 @@
 ---
 date:
   created: 2024-05-01
-categories:
-  - Holidays
 ---
 
 # Happy May Day!
