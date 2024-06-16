@@ -35,6 +35,7 @@ theme:
   icon:
     logo: 'material/school'
   features:
+    - navigation.indexes
     - content.action.edit
     - navigation.tabs
     - navigation.instant
