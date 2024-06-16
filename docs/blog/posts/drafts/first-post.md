@@ -1,6 +1,8 @@
 ---
 date:
   created: 2026-02-09
+category: 
+  - Test
 ---
 
 # 第一篇博文
