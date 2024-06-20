@@ -1,11 +1,11 @@
-site_name: Kowngx's Blog
-site_description: Kowngx's Blog
-site_url: https://kowngx.github.io/blog/
+site_name: Kown's Blog
+site_description: Kown's Blog
+site_url: https://Kown.github.io/blog/
 strict: false
 
 # Repository
-repo_name: 'Kowngx/blog'
-repo_url: 'https://github.com/Kowngx/blog'
+repo_name: 'Kown/blog'
+repo_url: 'https://github.com/Kown/blog'
 
 # Theme
 theme:
@@ -49,7 +49,7 @@ plugins:
       tags_file: tags.md
     
 # Copyright
-copyright: 'Copyright &copy; 2024 Kowngx'
+copyright: 'Copyright &copy; 2024 Kown'
 
 # Extensions
 markdown_extensions:
